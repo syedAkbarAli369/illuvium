@@ -10,10 +10,10 @@ const Hero = () => {
         muted
         playsInline
         className='w-full h-[95%] object-cover absolute top-0 first-letter:left-0 -z-10'
-        src="public\videos\hero.mp4" />
+        src="/videos/hero.mp4" />
 
       <div className='flex flex-col justify-center items-center gap-9'>
-        <img src="public\images\illu-text.png" alt="illu-text"
+        <img src="/images/illu-text.png" alt="illu-text"
           className='md:w-[30rem] w-[20rem]'
         />
 
@@ -24,7 +24,7 @@ const Hero = () => {
         <button className='h-10 px-15 bg-gradient-to-r from-purple-900 to-indigo-700 rounded-lg font-medium text-nowrap hover:opacity-70 transition-all duration-300'>PLAY NOW</button>
 
         <div className='flex items-center justify-center gap-6 text-3xl font-extrabold text-gray-300'>
-          <img className='md:h-18 h-15' src="public\images\illu-logo.png" alt="illu-logo" /> ZERO
+          <img className='md:h-18 h-15' src="/images/illu-logo.png" alt="illu-logo" /> ZERO
         </div>
 
         <p className='max-w-[80%] text-center text-[#babaff]'>

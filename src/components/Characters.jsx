@@ -188,7 +188,7 @@ const Characters = () => {
               <div className='text-lg mb-3'>VIKI</div>
               {/* img */}
               <div className='w-18 h-18 bg-gray-800/50 rounded-full flex items-center justify-center mb-3'>
-                <img src="public\images\VIKI.png" alt="viki" />
+                <img src="/images/VIKI.png" alt="viki" />
               </div>
               {/* star */}
               <div className='flex '>
@@ -210,7 +210,7 @@ const Characters = () => {
               <div className='text-lg mb-3'>EVA</div>
               {/* img */}
               <div className='w-18 h-18 bg-gray-800/50 rounded-full flex items-center justify-center mb-3'>
-                <img src="public\images\EVA.png" alt="viki" />
+                <img src="/images/EVA.png" alt="eva" />
               </div>
               {/* star */}
               <div className='flex '>

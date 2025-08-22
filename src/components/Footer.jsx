@@ -7,9 +7,12 @@ const Footer = () => {
     <footer className='flex items-center justify-between lg:mt-[15%] mt-[25%] py-8 lg:px-33 md:px-16 px-9 border-t-[0.3px] border-[#babaff]'>
       <img
         className='h-9'
-        src="public\images\illu-text.png" alt="footer-text" />
+        // src="/images\illu-text.png" 
+        src='/images/illu-text.png'
+        alt="footer-text"
+      />
 
-      <img className='h-18 sm:inline-block hidden' src="public\images\illu-logo.png" alt="logo" />
+      <img className='h-18 sm:inline-block hidden' src='/images/illu-logo.png' alt="logo" />
 
       <div className='flex gap-3'>
         <a className='text-2xl md:text-3xl hover:text-purple-900' href="#"><TwitterIcon /></a>

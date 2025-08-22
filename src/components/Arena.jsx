@@ -20,7 +20,7 @@ const Arena = () => {
           <div className='relative overflow-hidden rounded-3xl border border-white aspect-[4.4/4] transform transition-transform duration-300 hover:scale-105'>
             {/* card bg with gradient */}
             <div className='absolute h-full w-full'>
-              <img src="public\images\bento-card1.png" alt="bento1" />
+              <img src="/images/bento-card1.png" alt="bento1" />
               <button className='absolute bottom-0 h-16 w-full bg-black bg-opacity-70 text-2xl font-bold hover:text-yellow-300 transition-all duration-300 text-nowrap flex justify-center items-center gap-3'>
                 <BoxIcon /> NFT Store
               </button>
@@ -31,7 +31,8 @@ const Arena = () => {
           <div className='relative overflow-hidden rounded-3xl border border-white aspect-[4.5/4] transform transition-transform duration-300 hover:scale-105 mt-6'>
             <video
               className='h-full w-full object-cover '
-              src="public\videos\bento-card2.mp4"
+              // src="videos\bento-card2.mp4"
+              src='/videos/bento-card2.mp4'
               autoPlay
               loop
               muted
@@ -54,7 +55,11 @@ const Arena = () => {
                 muted
                 playsInline
                 className='w-full h-full object-cover'
-                src='public\videos\bento-card3.mp4' />
+                // src='public\videos\bento-card3.mp4' 
+                src='/videos/bento-card3.mp4'
+
+              />
+
               <h1 className='absolute bottom-2 left-1/2 transform -translate-x-1/2 z-10 font-extrabold text-2xl md:text-2xl'>Scroiox</h1>
             </div>
             {/* card 3 - second small card */}
@@ -65,7 +70,9 @@ const Arena = () => {
                 muted
                 playsInline
                 className='w-full h-full object-cover'
-                src='public\videos\bento-card4.mp4' />
+                // src='public\videos\bento-card4.mp4' 
+                src='/videos/bento-card4.mp4'
+              />
               <h1 className='absolute bottom-2 left-1/2 transform -translate-x-1/2 z-10 font-extrabold text-2xl md:text-2xl'>Floralynx</h1>
             </div>
             {/* card 3 - third small card */}
@@ -76,7 +83,9 @@ const Arena = () => {
                 muted
                 playsInline
                 className='w-full h-full object-cover'
-                src='public\videos\bento-card5.mp4' />
+                // src='public\videos\bento-card5.mp4' 
+                src='/videos/bento-card5.mp4'
+              />
               <h1 className='absolute bottom-2 left-1/2 transform -translate-x-1/2 z-10 font-extrabold text-2xl md:text-2xl'>Titanor</h1>
             </div>
           </div>
@@ -84,7 +93,11 @@ const Arena = () => {
           {/* card 6 bottom large card */}
           <div className='relative overflow-hidden rounded-3xl border border-white aspect-[16/9] md:col-span-2 transform transition-transform duration-300 hover:scale-105 mt-6'>
 
-            <img src="public\images\bento-card5.png" alt="card6" />
+            <img
+              //  src="public\images\bento-card5.png" 
+              src='/images/bento-card5.png'
+              alt="card6"
+            />
 
             <button className='absolute bottom-0 h-15 w-full bg-black bg-opacity-70 text-2xl font-bold hover:text-yellow-300 transition-all duration-300 text-nowrap flex items-center justify-center gap-3'>
               <BiLinkExternal /> Buy Now
